@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration debug="true" scan="true" scanPeriod="1 seconds">
+    <contextName>logback</contextName>
+
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="stdout"/>
+    </root>
+</configuration>
